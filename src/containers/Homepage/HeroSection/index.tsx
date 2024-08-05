@@ -56,7 +56,7 @@ const HeroSection = () => {
       <div className="text-center">
         <h1 className="text-6xl font-grotesk">
           {/* <FlipWords words={words} /> */}
-          <h1 className="text-6xl">Local AI</h1>
+          <span className="text-6xl">Local AI</span>
         </h1>
         <p className="text-xl w-full mx-auto lg:w-2/3 text-black/60 dark:text-white/60">
           Self-hosted alternative to the OpenAI Platform.

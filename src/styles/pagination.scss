@@ -1,7 +1,7 @@
 .pagination-nav {
   padding-top: 24px;
   border-top: 1px;
-  border-style: solid;
+  border-style: none;
   @apply dark:border-neutral-800 border-neutral-200;
 
   &__link {

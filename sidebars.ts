@@ -24,7 +24,8 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Installation",
       link: {
-        type: "generated-index",
+        type: "doc",
+        id: "installation",
       },
       collapsed: true,
       items: [
@@ -32,7 +33,11 @@ const sidebars: SidebarsConfig = {
         { type: "doc", id: "installation/mac", label: "Mac" },
         { type: "doc", id: "installation/linux", label: "Linux" },
         { type: "doc", id: "installation/docker", label: "Docker" },
-        { type: "doc", id: "installation/gpu-acceleration", label: "GPU Acceleration" },
+        {
+          type: "doc",
+          id: "installation/gpu-acceleration",
+          label: "GPU Acceleration",
+        },
       ],
     },
     {
@@ -87,7 +92,11 @@ const sidebars: SidebarsConfig = {
       items: [
         { type: "doc", id: "hub/cortex-hub", label: "Cortex Model Repos" },
         { type: "doc", id: "hub/hugging-face", label: "HuggingFace Repos" },
-        { type: "doc", id: "hub/nvidia-ngc", label: "Nvidia Catalog (Coming Soon)" },
+        {
+          type: "doc",
+          id: "hub/nvidia-ngc",
+          label: "Nvidia Catalog (Coming Soon)",
+        },
       ],
     },
     // BASIC USAGE
@@ -138,7 +147,11 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: [
         { type: "doc", id: "telemetry-architecture", label: "Telemetry Infra" },
-        { type: "doc", id: "benchmarking-architecture", label: "Benchmarking Infra" },
+        {
+          type: "doc",
+          id: "benchmarking-architecture",
+          label: "Benchmarking Infra",
+        },
       ],
     },
   ],
